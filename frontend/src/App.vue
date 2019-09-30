@@ -3,6 +3,9 @@
     <navbar/>
     <div id="wrap">
       <router-view />
+      <footer class="foot">
+        <p class="is-size-7 has-text-centered has-text-grey-light is-italic">version: {{commitHash}}</p>
+      </footer>
     </div>
     
   </div>
@@ -16,18 +19,19 @@
     components: {
       navbar
     },
-    data(){
-      return {
-
+    computed: {
+      commitHash() {
+        return process.env.COMMIT_HASH
       }
     },
-    methods: {
-
+    mounted() {
+      console.log('env: ', process.env.NODE_ENV)
     }
   }
 </script>
 
 <style lang="scss">
+@import "./css/stylesheet";
 @import "~bulma/sass/utilities/_all";
 
 html,
@@ -53,6 +57,11 @@ body {
   bottom: 0;
   position: fixed;
   overflow-y: auto;
+}
+
+.foot {
+  width: 100%;
+  background-color: whitesmoke;
 }
 
 // Set your colors

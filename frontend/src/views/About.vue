@@ -41,12 +41,13 @@
 	      <br>
 	      - Ken Pomeroy in "<a href="https://kenpom.com/blog/">The pre-season AP poll is great</a>""
 	    </b-message>
-
+	   	
 	  </section>
   </div>
 </template>
 
 <script>
+
 	export default {
   name: 'about'
 }

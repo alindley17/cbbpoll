@@ -32,14 +32,17 @@
       </template>
 
       <template slot="end">
-        <b-navbar-item tag="router-link" to="/submitBallot">
-          Submit Ballot
+        <b-navbar-item tag="router-link" to="/submitBallot" v-if="user.is_voter">
+          Submit/Edit Ballot
         </b-navbar-item>
-        <b-navbar-item tag="router-link" to="/admin">
+        <b-navbar-item tag="router-link" to="/admin" v-if="showAdmin">
           <div>Admin</div>
         </b-navbar-item>
-        <b-navbar-item>
-          <div class="green-text">Login/Sign Up</div>
+        <b-navbar-item v-if="user.nickname === ''">
+          <div class="green-text" @click="requestToken()">Login/Sign Up</div>
+        </b-navbar-item>
+        <b-navbar-item v-if="user.nickname != ''">
+          <div class="green-text" @click="logout">Logout</div>
         </b-navbar-item>
       </template>
     </b-navbar>
@@ -51,7 +54,35 @@ export default {
   name: 'navbar',
   data() {
     return {
-      admin: true
+      showAdmin: false
+    }
+  },
+  computed: {
+    serverToken: {
+      get() {
+        return this.$store.state.serverToken
+      }
+    },
+    user: {
+      get() {
+        return this.$store.state.user
+      }
+    },
+    showSubmitBallot() {
+      if(this.serverToken != '') {
+        return true
+      } else {
+        return false
+      }
+    }
+  },
+  methods: {
+    logout() {
+      // TODO logout of server and reddit
+      this.$store.commit('quitSession')
+    },
+    requestToken() {
+      window.open('https://www.reddit.com/api/v1/authorize?client_id=J0AAtQFLqssEqQ&response_type=token&state=someSdldladfkding!!!&redirect_uri=http://localhost:8080/oauth&scope=identity', '_self')
     }
   }
 }

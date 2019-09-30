@@ -1,0 +1,2123 @@
+.team {
+    background-image: url(./assets/cbb_spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.team-abichr {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+.team-af {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -5px;
+}
+
+.team-akron {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -5px;
+}
+
+.team-ala {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -5px;
+}
+
+.team-alaa_m {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -5px;
+}
+
+.team-albany {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -5px;
+}
+
+.team-alc {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -5px;
+}
+
+.team-alst {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -5px;
+}
+
+.team-amer {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -5px;
+}
+
+.team-app {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -5px;
+}
+
+.team-apsu {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -5px;
+}
+
+.team-ari {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -5px;
+}
+
+.team-arist {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -5px;
+}
+
+.team-ark {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -5px;
+}
+
+.team-ark-lr {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -5px;
+}
+
+.team-ark-pb {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -5px;
+}
+
+.team-arkst {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -5px;
+}
+
+.team-army {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -5px;
+}
+
+.team-auburn {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -45px;
+}
+
+.team-b-c {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -45px;
+}
+
+.team-ballst {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -45px;
+}
+
+.team-baylor {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -45px;
+}
+
+.team-bc {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -45px;
+}
+
+.team-belmnt {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -45px;
+}
+
+.team-bgsu {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -45px;
+}
+
+.team-bing {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -45px;
+}
+
+.team-boise {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -45px;
+}
+
+.team-brad {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -45px;
+}
+
+.team-brown {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -45px;
+}
+
+.team-bryant {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -45px;
+}
+
+.team-bu {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -45px;
+}
+
+.team-buck {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -45px;
+}
+
+.team-buff {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -45px;
+}
+
+.team-butler {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -45px;
+}
+
+.team-byu {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -45px;
+}
+
+.team-cal {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -45px;
+}
+
+.team-calba {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -85px;
+}
+
+.team-calply {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -85px;
+}
+
+.team-calrv {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -85px;
+}
+
+.team-camp {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -85px;
+}
+
+.team-can {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -85px;
+}
+
+.team-cenark {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -85px;
+}
+
+.team-centct {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -85px;
+}
+
+.team-centmi {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -85px;
+}
+
+.team-char {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -85px;
+}
+
+.team-chat {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -85px;
+}
+
+.team-chist {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -85px;
+}
+
+.team-chrstn {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -85px;
+}
+
+.team-chsou {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -85px;
+}
+
+.team-cin {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -85px;
+}
+
+.team-cit {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -85px;
+}
+
+.team-clem {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -85px;
+}
+
+.team-clest {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -85px;
+}
+
+.team-coastc {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -85px;
+}
+
+.team-colg {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -125px;
+}
+
+.team-colo {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -125px;
+}
+
+.team-colost {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -125px;
+}
+
+.team-colum {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -125px;
+}
+
+.team-coppin {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -125px;
+}
+
+.team-cor {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -125px;
+}
+
+.team-cre {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -125px;
+}
+
+.team-cs-bk {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -125px;
+}
+
+.team-cs-nr {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -125px;
+}
+
+.team-csf {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -125px;
+}
+
+.team-dart {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -125px;
+}
+
+.team-dav {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -125px;
+}
+
+.team-dayton {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -125px;
+}
+
+.team-del {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -125px;
+}
+
+.team-delst {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -125px;
+}
+
+.team-denver {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -125px;
+}
+
+.team-depaul {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -125px;
+}
+
+.team-det {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -125px;
+}
+
+.team-drake {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -165px;
+}
+
+.team-drexel {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -165px;
+}
+
+.team-duke {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -165px;
+}
+
+.team-duq {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -165px;
+}
+
+.team-eastil {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -165px;
+}
+
+.team-eastky {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -165px;
+}
+
+.team-eastmi {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -165px;
+}
+
+.team-easttn {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -165px;
+}
+
+.team-eastwa {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -165px;
+}
+
+.team-ecu {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -165px;
+}
+
+.team-elon {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -165px;
+}
+
+.team-evan {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -165px;
+}
+
+.team-fair {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -165px;
+}
+
+.team-fdu {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -165px;
+}
+
+.team-fiu {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -165px;
+}
+
+.team-fla {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -165px;
+}
+
+.team-flaa_m {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -165px;
+}
+
+.team-flaatl {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -165px;
+}
+
+.team-flagc {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -205px;
+}
+
+.team-flast {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -205px;
+}
+
+.team-ford {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -205px;
+}
+
+.team-fres {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -205px;
+}
+
+.team-furman {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -205px;
+}
+
+.team-g-webb {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -205px;
+}
+
+.team-gaso {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -205px;
+}
+
+.team-gast {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -205px;
+}
+
+.team-gatech {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -205px;
+}
+
+.team-gb {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -205px;
+}
+
+.team-gmason {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -205px;
+}
+
+.team-gonz {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -205px;
+}
+
+.team-gracan {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -205px;
+}
+
+.team-gram {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -205px;
+}
+
+.team-gtown {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -205px;
+}
+
+.team-gw {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -205px;
+}
+
+.team-hamp {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -205px;
+}
+
+.team-hart {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -205px;
+}
+
+.team-harv {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -245px;
+}
+
+.team-hawaii {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -245px;
+}
+
+.team-highpt {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -245px;
+}
+
+.team-hof {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -245px;
+}
+
+.team-holycr {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -245px;
+}
+
+.team-hou {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -245px;
+}
+
+.team-houbap {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -245px;
+}
+
+.team-howard {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -245px;
+}
+
+.team-iast {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -245px;
+}
+
+.team-idaho {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -245px;
+}
+
+.team-idast {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -245px;
+}
+
+.team-ill {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -245px;
+}
+
+.team-illst {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -245px;
+}
+
+.team-incwor {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -245px;
+}
+
+.team-ind {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -245px;
+}
+
+.team-inst {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -245px;
+}
+
+.team-iona {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -245px;
+}
+
+.team-iowa {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -245px;
+}
+
+.team-ipfw {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -285px;
+}
+
+.team-iupui {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -285px;
+}
+
+.team-jac {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -285px;
+}
+
+.team-jacst {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -285px;
+}
+
+.team-jkst {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -285px;
+}
+
+.team-jmu {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -285px;
+}
+
+.team-kansas {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -285px;
+}
+
+.team-kanst {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -285px;
+}
+
+.team-kentst {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -285px;
+}
+
+.team-ksawst {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -285px;
+}
+
+.team-kty {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -285px;
+}
+
+.team-laf {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -285px;
+}
+
+.team-lamar {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -285px;
+}
+
+.team-lasal {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -285px;
+}
+
+.team-latech {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -285px;
+}
+
+.team-lehigh {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -285px;
+}
+
+.team-lgbch {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -285px;
+}
+
+.team-lib {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -285px;
+}
+
+.team-lips {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -325px;
+}
+
+.team-liu {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -325px;
+}
+
+.team-lngwd {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -325px;
+}
+
+.team-lou {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -325px;
+}
+
+.team-louis {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -325px;
+}
+
+.team-lsu {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -325px;
+}
+
+.team-ly-il {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -325px;
+}
+
+.team-ly-md {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -325px;
+}
+
+.team-lymnt {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -325px;
+}
+
+.team-ma-low {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -325px;
+}
+
+.team-maine {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -325px;
+}
+
+.team-manhat {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -325px;
+}
+
+.team-marist {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -325px;
+}
+
+.team-marq {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -325px;
+}
+
+.team-marsh {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -325px;
+}
+
+.team-mcne {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -325px;
+}
+
+.team-md {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -325px;
+}
+
+.team-md-es {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -325px;
+}
+
+.team-mem {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -365px;
+}
+
+.team-mercer {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -365px;
+}
+
+.team-mia-fl {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -365px;
+}
+
+.team-mia-o {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -365px;
+}
+
+.team-mich {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -365px;
+}
+
+.team-middtn {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -365px;
+}
+
+.team-minn {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -365px;
+}
+
+.team-miss {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -365px;
+}
+
+.team-missou {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -365px;
+}
+
+.team-missst {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -365px;
+}
+
+.team-monm {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -365px;
+}
+
+.team-mont {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -365px;
+}
+
+.team-montst {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -365px;
+}
+
+.team-mor {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -365px;
+}
+
+.team-morgan {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -365px;
+}
+
+.team-mostu {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -365px;
+}
+
+.team-msm {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -365px;
+}
+
+.team-msu {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -365px;
+}
+
+.team-msvl {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -405px;
+}
+
+.team-murray {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -405px;
+}
+
+.team-navy {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -405px;
+}
+
+.team-nc-ash {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -405px;
+}
+
+.team-nc-gre {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -405px;
+}
+
+.team-nc-wil {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -405px;
+}
+
+.team-nca_t {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -405px;
+}
+
+.team-nccent {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -405px;
+}
+
+.team-ncsu {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -405px;
+}
+
+.team-nd {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -405px;
+}
+
+.team-ndakst {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -405px;
+}
+
+.team-ne {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -405px;
+}
+
+.team-neb {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -405px;
+}
+
+.team-neoma {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -405px;
+}
+
+.team-nevada {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -405px;
+}
+
+.team-nia {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -405px;
+}
+
+.team-nich {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -405px;
+}
+
+.team-niu {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -405px;
+}
+
+.team-njit {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -445px;
+}
+
+.team-nm {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -445px;
+}
+
+.team-nmst {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -445px;
+}
+
+.team-noala {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -445px;
+}
+
+.team-noari {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -445px;
+}
+
+.team-nocol {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -445px;
+}
+
+.team-nofla {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -445px;
+}
+
+.team-noia {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -445px;
+}
+
+.team-nor {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -445px;
+}
+
+.team-nordak {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -445px;
+}
+
+.team-nortky {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -445px;
+}
+
+.team-nortx {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -445px;
+}
+
+.team-nw {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -445px;
+}
+
+.team-nwst {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -445px;
+}
+
+.team-oak {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -445px;
+}
+
+.team-odu {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -445px;
+}
+
+.team-ohio {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -445px;
+}
+
+.team-ohiost {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -445px;
+}
+
+.team-okla {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -485px;
+}
+
+.team-okst {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -485px;
+}
+
+.team-oregon {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -485px;
+}
+
+.team-orest {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -485px;
+}
+
+.team-orrob {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -485px;
+}
+
+.team-pac {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -485px;
+}
+
+.team-penn {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -485px;
+}
+
+.team-pepper {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -485px;
+}
+
+.team-pitt {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -485px;
+}
+
+.team-por {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -485px;
+}
+
+.team-porst {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -485px;
+}
+
+.team-presby {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -485px;
+}
+
+.team-prince {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -485px;
+}
+
+.team-prov {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -485px;
+}
+
+.team-psu {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -485px;
+}
+
+.team-purdue {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -485px;
+}
+
+.team-pva_m {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -485px;
+}
+
+.team-quinni {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -485px;
+}
+
+.team-rad {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -525px;
+}
+
+.team-rice {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -525px;
+}
+
+.team-rich {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -525px;
+}
+
+.team-rider {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -525px;
+}
+
+.team-rmor {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -525px;
+}
+
+.team-rut {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -525px;
+}
+
+.team-sac {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -525px;
+}
+
+.team-sam {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -525px;
+}
+
+.team-samhou {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -525px;
+}
+
+.team-sanfr {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -525px;
+}
+
+.team-santac {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -525px;
+}
+
+.team-savan {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -525px;
+}
+
+.team-sc {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -525px;
+}
+
+.team-sc-ups {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -525px;
+}
+
+.team-scst {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -525px;
+}
+
+.team-sd {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -525px;
+}
+
+.team-sdakst {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -525px;
+}
+
+.team-sdsu {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -525px;
+}
+
+.team-seattl {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -565px;
+}
+
+.team-sela {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -565px;
+}
+
+.team-semo {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -565px;
+}
+
+.team-setonh {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -565px;
+}
+
+.team-sfa {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -565px;
+}
+
+.team-sheart {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -565px;
+}
+
+.team-siena {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -565px;
+}
+
+.team-siu {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -565px;
+}
+
+.team-siue {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -565px;
+}
+
+.team-sjsu {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -565px;
+}
+
+.team-smu {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -565px;
+}
+
+.team-sofla {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -565px;
+}
+
+.team-sou {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -565px;
+}
+
+.team-soudak {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -565px;
+}
+
+.team-soumis {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -565px;
+}
+
+.team-sout {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -565px;
+}
+
+.team-stan {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -565px;
+}
+
+.team-stbon {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -565px;
+}
+
+.team-stet {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -605px;
+}
+
+.team-stf-ny {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -605px;
+}
+
+.team-stf-pa {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -605px;
+}
+
+.team-stjn {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -605px;
+}
+
+.team-stjoes {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -605px;
+}
+
+.team-stl {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -605px;
+}
+
+.team-stmry {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -605px;
+}
+
+.team-stnybr {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -605px;
+}
+
+.team-stpete {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -605px;
+}
+
+.team-syr {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -605px;
+}
+
+.team-ta_mcc {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -605px;
+}
+
+.team-tcu {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -605px;
+}
+
+.team-temple {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -605px;
+}
+
+.team-tenn {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -605px;
+}
+
+.team-tennst {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -605px;
+}
+
+.team-tex {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -605px;
+}
+
+.team-tex-pa {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -605px;
+}
+
+.team-texa_m {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -605px;
+}
+
+.team-tn-mar {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -645px;
+}
+
+.team-tntech {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -645px;
+}
+
+.team-toledo {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -645px;
+}
+
+.team-towson {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -645px;
+}
+
+.team-troy {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -645px;
+}
+
+.team-tulane {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -645px;
+}
+
+.team-tulsa {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -645px;
+}
+
+.team-tx-ar {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -645px;
+}
+
+.team-txso {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -645px;
+}
+
+.team-txst {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -645px;
+}
+
+.team-txtch {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -645px;
+}
+
+.team-uab {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -645px;
+}
+
+.team-uc-irv {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -645px;
+}
+
+.team-uc-sb {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -645px;
+}
+
+.team-ucdav {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -645px;
+}
+
+.team-ucf {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -645px;
+}
+
+.team-ucla {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -645px;
+}
+
+.team-uconn {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -645px;
+}
+
+.team-uga {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -685px;
+}
+
+.team-uic {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -685px;
+}
+
+.team-ul-mon {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -685px;
+}
+
+.team-umass {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -685px;
+}
+
+.team-umbc {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -685px;
+}
+
+.team-umkc {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -685px;
+}
+
+.team-unc {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -685px;
+}
+
+.team-unh {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -685px;
+}
+
+.team-unlv {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -685px;
+}
+
+.team-uno {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -685px;
+}
+
+.team-uri {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -685px;
+}
+
+.team-usa {
+    width: 30px;
+    height: 30px;
+    background-position: -445px -685px;
+}
+
+.team-usc {
+    width: 30px;
+    height: 30px;
+    background-position: -485px -685px;
+}
+
+.team-utah {
+    width: 30px;
+    height: 30px;
+    background-position: -525px -685px;
+}
+
+.team-utahst {
+    width: 30px;
+    height: 30px;
+    background-position: -565px -685px;
+}
+
+.team-utep {
+    width: 30px;
+    height: 30px;
+    background-position: -605px -685px;
+}
+
+.team-utsa {
+    width: 30px;
+    height: 30px;
+    background-position: -645px -685px;
+}
+
+.team-uva {
+    width: 30px;
+    height: 30px;
+    background-position: -685px -685px;
+}
+
+.team-uvu {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -5px;
+}
+
+.team-uw-mil {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -45px;
+}
+
+.team-valpo {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -85px;
+}
+
+.team-vandy {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -125px;
+}
+
+.team-vatech {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -165px;
+}
+
+.team-vcu {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -205px;
+}
+
+.team-ver {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -245px;
+}
+
+.team-vill {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -285px;
+}
+
+.team-vmi {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -325px;
+}
+
+.team-w_m {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -365px;
+}
+
+.team-wagner {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -405px;
+}
+
+.team-wake {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -445px;
+}
+
+.team-wash {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -485px;
+}
+
+.team-washst {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -525px;
+}
+
+.team-wcu {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -565px;
+}
+
+.team-web {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -605px;
+}
+
+.team-westil {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -645px;
+}
+
+.team-westky {
+    width: 30px;
+    height: 30px;
+    background-position: -725px -685px;
+}
+
+.team-westmi {
+    width: 30px;
+    height: 30px;
+    background-position: -5px -725px;
+}
+
+.team-wich {
+    width: 30px;
+    height: 30px;
+    background-position: -45px -725px;
+}
+
+.team-win {
+    width: 30px;
+    height: 30px;
+    background-position: -85px -725px;
+}
+
+.team-wisc {
+    width: 30px;
+    height: 30px;
+    background-position: -125px -725px;
+}
+
+.team-wof {
+    width: 30px;
+    height: 30px;
+    background-position: -165px -725px;
+}
+
+.team-wright {
+    width: 30px;
+    height: 30px;
+    background-position: -205px -725px;
+}
+
+.team-wvu {
+    width: 30px;
+    height: 30px;
+    background-position: -245px -725px;
+}
+
+.team-wyo {
+    width: 30px;
+    height: 30px;
+    background-position: -285px -725px;
+}
+
+.team-xavier {
+    width: 30px;
+    height: 30px;
+    background-position: -325px -725px;
+}
+
+.team-yale {
+    width: 30px;
+    height: 30px;
+    background-position: -365px -725px;
+}
+
+.team-ysu {
+    width: 30px;
+    height: 30px;
+    background-position: -405px -725px;
+}

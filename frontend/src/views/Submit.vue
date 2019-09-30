@@ -4,8 +4,7 @@
 			<b-table 
 				v-sortable="sortableOptions"
 				:data="data"
-				custom-row-key="id"
-				@click="(row) => $buefy.toast.open(`Clicked ${row.first_name}`)">
+				custom-row-key="id">
 
 				<template slot-scope="props">
 					<b-table-column label="Rank" width="40" numeric>
@@ -13,13 +12,22 @@
 					</b-table-column>
 					<b-table-column label="Team">
 						<b-field>
-	            <b-select
+	            <!-- <b-select
                 placeholder="Select a Team"
                 expanded
-                :value="team">
+                :value="props.row.team">
                 <option value="id">UNC</option>
                 <option value="id">Not Duke</option>
-	            </b-select>
+	            </b-select> -->
+	            <b-autocomplete
+                v-model="name"
+                placeholder="e.g. Alabama"
+                :keep-first="true"
+                :open-on-focus="true"
+                :data="filteredDataObj"
+                field="user.first_name"
+                @select="option => selected = option">
+            </b-autocomplete>
 		        </b-field>
 					</b-table-column>
 					<b-table-column label="Explanation">
@@ -76,6 +84,7 @@ const sortable = {
 		table._sortable.destroy()
 	}
 }
+
 export default {
 	directives: { sortable },
 	data() {
@@ -83,6 +92,7 @@ export default {
 			sortableOptions: {
 
 			},
+			name: 'Alabama',
 			data: [
 				{ 'id': 1, team: ''},
 				{ 'id': 2, team: ''},
@@ -109,9 +119,64 @@ export default {
 				{ 'id': 23, team: ''},
 				{ 'id': 24, team: ''},
 				{ 'id': 25, team: ''}
+			],
+			// TODO: get this array from backend
+			allTeams: [
+				{
+			    "id": 1,
+			    "full_name": "University of North Carolina",
+			    "short_name": "UNC",
+			    "nickname": "Tar Heels",
+			    "conference": "ACC"
+				},
+				{
+			    "id": 2,
+			    "full_name": "Duke",
+			    "short_name": "Duke",
+			    "nickname": "Blue Devils",
+			    "conference": "ACC"
+				},
+				{
+			    "id": 3,
+			    "full_name": "University of Virginia",
+			    "short_name": "UVA",
+			    "nickname": "Wahoos",
+			    "conference": "ACC"
+				},
+				{
+			    "id": 4,
+			    "full_name": "Virginia Tech",
+			    "short_name": "VT",
+			    "nickname": "Hokies",
+			    "conference": "ACC"
+				},
+				{
+			    "id": 5,
+			    "full_name": "North Carolina State University",
+			    "short_name": "NCSU",
+			    "nickname": "Wolf Pack",
+			    "conference": "ACC"
+				},
+				{
+			    "id": 6,
+			    "full_name": "Maryland",
+			    "short_name": "UM",
+			    "nickname": "Terrapins",
+			    "conference": "Big Ten"
+				}
 			]
 		}
 	},
+	computed: {
+    filteredDataObj() {
+      return this.allTeams.filter((option) => {
+        return option.full_name
+          .toString()
+          .toLowerCase()
+          .indexOf(this.name.toLowerCase()) >= 0
+      })
+    }
+  },
 	methods: {
 		test() {
 			console.log('data', this.data)

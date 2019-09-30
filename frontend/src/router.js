@@ -23,6 +23,13 @@ export default new Router({
       }
     },
     {
+      path: '/oauth',
+      name: 'oauth',
+      component: function () { 
+        return import('./views/OAuth.vue')
+      }
+    },
+    {
       path: '/voters',
       name: 'voters',
       component: function () { 
