@@ -20,7 +20,7 @@
                 <option value="id">Not Duke</option>
 	            </b-select> -->
 	            <b-autocomplete
-                v-model="name"
+                v-model="selectedTeam"
                 placeholder="e.g. Alabama"
                 :keep-first="true"
                 :open-on-focus="true"

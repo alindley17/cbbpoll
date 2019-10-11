@@ -26,7 +26,3 @@ yarn-error.log*
 # Secret files
 backend/*.key
 backend/*.pub
-
-# https://github.com/cclauss/Upgrade-to-Python3/issues/1
-# added because this is blocking my ability to push to my forked master branch
-.github/workflows/aws-deploy.yaml
