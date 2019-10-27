@@ -95,6 +95,20 @@ func (_m *DBClient) AddUser(newUser models.User) (models.User, error) {
 	return r0, r1
 }
 
+// Close provides a mock function with given fields:
+func (_m *DBClient) Close() error {
+	ret := _m.Called()
+
+	var r0 error
+	if rf, ok := ret.Get(0).(func() error); ok {
+		r0 = rf()
+	} else {
+		r0 = ret.Error(0)
+	}
+
+	return r0
+}
+
 // DeleteBallot provides a mock function with given fields: id
 func (_m *DBClient) DeleteBallot(id int64) error {
 	ret := _m.Called(id)
@@ -167,6 +181,29 @@ func (_m *DBClient) GetPoll(season int, week int) (models.Poll, error) {
 	var r1 error
 	if rf, ok := ret.Get(1).(func(int, int) error); ok {
 		r1 = rf(season, week)
+	} else {
+		r1 = ret.Error(1)
+	}
+
+	return r0, r1
+}
+
+// GetPolls provides a mock function with given fields: filter, sort
+func (_m *DBClient) GetPolls(filter []db.Filter, sort db.Sort) ([]models.Poll, error) {
+	ret := _m.Called(filter, sort)
+
+	var r0 []models.Poll
+	if rf, ok := ret.Get(0).(func([]db.Filter, db.Sort) []models.Poll); ok {
+		r0 = rf(filter, sort)
+	} else {
+		if ret.Get(0) != nil {
+			r0 = ret.Get(0).([]models.Poll)
+		}
+	}
+
+	var r1 error
+	if rf, ok := ret.Get(1).(func([]db.Filter, db.Sort) error); ok {
+		r1 = rf(filter, sort)
 	} else {
 		r1 = ret.Error(1)
 	}

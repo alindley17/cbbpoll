@@ -3,13 +3,14 @@ package app
 import (
 	"fmt"
 	"time"
+	"unicode/utf8"
 
 	"github.com/r-cbb/cbbpoll/internal/db"
 	"github.com/r-cbb/cbbpoll/internal/errors"
 	"github.com/r-cbb/cbbpoll/internal/models"
 )
 
-var numRanks = 5
+var numRanks = 25
 
 type PollService struct {
 	Db     db.DBClient
@@ -116,7 +117,6 @@ func (ps PollService) GetUser(name string) (models.User, error) {
 
 func (ps PollService) GetUsers(user models.UserToken, opts Options) ([]models.User, error) {
 	const op errors.Op = "app.GetUsers"
-	var users []models.User
 
 	users, err := ps.Db.GetUsers(opts.unpack())
 	if err != nil {
@@ -171,11 +171,6 @@ func (ps PollService) AddPoll(user models.UserToken, poll models.Poll) (models.P
 		return models.Poll{}, errors.E(op, errors.KindUnauthorized, "user doesn't have sufficient permissions to add a poll")
 	}
 
-	_, err := ps.Db.GetPoll(poll.Season, poll.Week)
-	if errors.Kind(err) != errors.KindNotFound {
-		return models.Poll{}, errors.E(op, errors.KindConflict, fmt.Sprintf("poll already exists for season %v week %v", poll.Season, poll.Week))
-	}
-
 	newPoll, err := ps.Db.AddPoll(poll)
 	if err != nil {
 		return models.Poll{}, errors.E(op, "error adding poll to db", err)
@@ -192,6 +187,21 @@ func (ps PollService) GetPoll(season int, week int) (models.Poll, error) {
 	}
 
 	return poll, nil
+}
+
+func (ps PollService) GetPolls(user models.UserToken, opts Options) ([]models.Poll, error) {
+	const op errors.Op = "app.GetPolls"
+
+	if !user.CanManagePolls() {
+		opts = opts.HasOpened()
+	}
+
+	polls, err := ps.Db.GetPolls(opts.unpack())
+	if err != nil {
+		return nil, errors.E(op, err, "error retrieving polls from db")
+	}
+
+	return polls, nil
 }
 
 func (ps PollService) GetResults(user models.UserToken, season int, week int) ([]models.Result, error) {
@@ -211,7 +221,7 @@ func (ps PollService) GetResults(user models.UserToken, season int, week int) ([
 		return nil, errors.E(op, err, "error retrieving results for poll")
 	}
 
-	if results == nil {
+	if len(results) == 0 {
 		results, err = ps.calcPollResults(poll)
 		if err != nil {
 			return nil, errors.E(op, err, "error calculating poll results")
@@ -236,10 +246,10 @@ func (ps PollService) AddBallot(user models.UserToken, ballot models.Ballot) (mo
 		return models.Ballot{}, errors.E(op, errors.KindUnauthorized, "can't submit ballot for another user")
 	}
 
-	ballot.IsOfficial = u.IsVoter
-	ballot.UpdatedTime = time.Now()
+	// ballot.IsOfficial = u.IsVoter
+	// ballot.UpdatedTime = time.Now()
 
-	err = validateBallot(ballot)
+	err = ps.validateBallot(ballot)
 	if err != nil {
 		return models.Ballot{}, errors.E(op, err, "ballot failed validation", errors.KindBadRequest)
 	}
@@ -252,18 +262,18 @@ func (ps PollService) AddBallot(user models.UserToken, ballot models.Ballot) (mo
 	return newBallot, nil
 }
 
-func validateBallot(b models.Ballot) error {
+func (ps PollService) validateBallot(b models.Ballot) error {
 	vs := b.Votes
 
 	if len(vs) != numRanks {
-		return errors.E(fmt.Errorf("ballots must contain exactly %v votes", numRanks))
+		return errors.E(fmt.Errorf("ballots must contain exactly %v votes, found %v", numRanks, len(vs)))
 	}
 
 	if containsDuplicates(vs) {
 		return errors.E(fmt.Errorf("ballot contains duplicate votes"))
 	}
 
-	if err := checkVotes(vs); err != nil {
+	if err := checkVotes(vs, ps.Db); err != nil {
 		return err
 	}
 
@@ -282,15 +292,22 @@ func containsDuplicates(vs []models.Vote) bool {
 	return false
 }
 
-func checkVotes(vs []models.Vote) error {
-	for _, v := range vs {
+func checkVotes(vs []models.Vote, db db.DBClient) error {
+	teamIDs := make([]int64, len(vs))
+	for i, v := range vs {
+		teamIDs[i] = v.TeamID
 		if v.TeamID == 0 || v.Rank == 0 {
 			return fmt.Errorf("no votes can have a team_id or rank of 0")
 		}
 
-		if len(v.Reason) > 140 {
+		if utf8.RuneCountInString(v.Reason) > 140 {
 			return fmt.Errorf("reasons can't be longer than 140 characters")
 		}
+	}
+
+	_, err := db.GetTeamsByID(teamIDs)
+	if err != nil {
+		return fmt.Errorf("unable to retrieve ballot's teams from db")
 	}
 
 	return nil
